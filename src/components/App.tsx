@@ -8,9 +8,9 @@ import * as Eco from '../images/eco.png';
 const App: React.FC<{}> = () => {
 
     return (
-        <Container>
+        <Container fluid>
             <Row>
-                <Col>
+                <Col xs={12}>
                     <Navbar bg="dark" variant="dark">
                         <Navbar.Brand href="#">Transfer Buddy®</Navbar.Brand>
                     </Navbar>
