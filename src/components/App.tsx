@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { Container, Row, Col, Image, Button, Navbar } from 'react-bootstrap';
+import { Container, Row, Col, Button, Navbar, NavbarBrand } from 'reactstrap';
+import { Image } from 'react-bootstrap';
 import '../styles/app.scss';
 import * as Example from '../images/example.png';
 import * as Dolphin from '../images/dolphin.png';
@@ -10,14 +11,14 @@ const App: React.FC<{}> = () => {
     return (
         <Container fluid>
             <Row>
-                <Col xs={12}>
-                    <Navbar bg="dark" variant="dark">
-                        <Navbar.Brand href="#">Transfer Buddy®</Navbar.Brand>
+                <Col>
+                    <Navbar color="dark" dark expand="md">
+                        <NavbarBrand href="#">Transfer Buddy®</NavbarBrand>
                     </Navbar>
                 </Col>
             </Row>
             <Row id="page-container">
-                <Col xs={12}>
+                <Col>
                     <p>
                         <i>We all need a little bit of luxury in our lives even away from home.</i><br /><br />
                         The <i>Transfer Buddy®</i> is a simple way of decanting your favourite brands into a handy collapsible pouch. If you love to get away for a camping trip, cycling touring holidays, walking holidays, a picnic, a drive in the country, a weekend away in a hotel, the <i>Transfer Buddy®</i>® allows you to decant any flowable material from moisturiser to sun-cream to your favourite shampoo.<br />
@@ -29,11 +30,11 @@ const App: React.FC<{}> = () => {
                     <Image src={String(Example)} fluid />
                     <h2>Help us develop Transfer Buddy®!</h2>
                     <p>Help us by taking a few of minutes to complete our survey</p>
-                    <Button variant="primary" href="https://www.surveymonkey.co.uk/r/J2HGM5S">Take Suvery</Button>
+                    <Button variant="primary" href="https://www.surveymonkey.co.uk/r/J2HGM5S">Take Survey</Button>
                 </Col>
             </Row>
             <Row id="footer">
-                <Col xs={12}>
+                <Col>
                     <p className="company-name">Transfer Buddy®, 2020</p>
                     <div className="images">
                         <Image src={String(Dolphin)} />
