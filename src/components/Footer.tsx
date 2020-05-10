@@ -30,7 +30,7 @@ const Footer: React.FC<{}> = () => {
             </footer>}
             <section className="copyright py-4 text-center text-white">
                 <div className="container">
-                    <small className="pre-wrap">Travel Buddy®, 2020</small>
+                    <small className="pre-wrap">Transfer Buddy®, 2020</small>
                     <div className="images">
                         <Image src={String(Dolphin)} />
                         <Image src={String(Eco)} />
