@@ -13,8 +13,8 @@ const App: React.FC<{}> = () => {
             <Navbar color="dark" dark expand="md" fixed="top">
                 <NavbarBrand href="#">Transfer Buddy</NavbarBrand>
             </Navbar>
-            <Container fluid>
-                <Row id="page-container">
+            <Container fluid id="page-container">
+                <Row>
                     <Col>
                         <p>
                             <h2>The Transfer Buddy®</h2>
