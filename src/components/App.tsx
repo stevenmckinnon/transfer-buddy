@@ -30,7 +30,7 @@ const App: React.FC<{}> = () => {
                     <Image src={String(Example)} fluid />
                     <h2>Help us develop Transfer Buddy®!</h2>
                     <p>Help us by taking a few of minutes to complete our survey</p>
-                    <Button variant="primary" href="https://www.surveymonkey.co.uk/r/J2HGM5S">Take Survey</Button>
+                    <Button color="primary" href="https://www.surveymonkey.co.uk/r/J2HGM5S">Take Survey</Button>
                 </Col>
             </Row>
             <Row id="footer">
