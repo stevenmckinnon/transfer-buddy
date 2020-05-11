@@ -31,4 +31,6 @@ const Contact: React.FC<{}> = () => (
         </div>
     </div>
 </section>
-)
+);
+
+export default Contact;
