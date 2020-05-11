@@ -10,7 +10,9 @@ const Header: React.FC<{}> = () => (
                 <div className="divider-custom-line" />
             </div>
             {/* Masthead Subheading*/}
-            <p className="pre-wrap masthead-subheading font-weight-light mb-0" />
+            <p className="pre-wrap masthead-subheading font-weight-light mb-0">
+                We all need a little bit of luxury in our lives!
+            </p>
         </div>
     </header>
 );
